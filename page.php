@@ -1,7 +1,9 @@
 
-
-
 <?php
+/*The template for displaying all pages.
+loops through all the pages and displays them on one page */
+ 
+
 get_header();
 // define how pages will display
 $args = array(

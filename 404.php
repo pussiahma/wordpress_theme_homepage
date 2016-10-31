@@ -5,7 +5,7 @@
 
 		<section class="Error-404 not-found">
 			<head class="page-header">
-				<h1 class="page-title">Sivua ei löytynyt!</h1>
+				<h2 class="page-title">Sivua ei löytynyt!</h2>
 			</head>
 		</section>
 	</main>	
