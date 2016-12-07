@@ -55,5 +55,28 @@ $overlay.click(function(){
 
 })( jQuery );
 
+(function($) {
+
+const faBo = $(".icon-facebook");
+const linkedIn = $(".icon-linkedin");
+const gitHub = $(".icon-github");
+
+var showIcon = function(icon) {
+icon.css("visibility", "visible").css("opacity", "1").css("transition", "opacity 0.5s cubic-bezier(.33,.65,.83,.67) 0s"); 
+
+}
+
+$(window).scroll(function() {
+   const Ot = $('#contact').offset().top,
+   St = $(this).scrollTop();
+   if (St > Ot -300){
+
+showIcon(faBo);
+setTimeout(function(){ showIcon(linkedIn); }, 500);
+setTimeout(function(){ showIcon(gitHub); }, 1200);
+
+   }
+});
 
 
+})( jQuery );

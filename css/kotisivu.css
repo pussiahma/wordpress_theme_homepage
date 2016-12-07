@@ -348,6 +348,15 @@ text-decoration: none;
 }
 
 
+/*icons */
+.icon-facebook, .icon-linkedin, .icon-github {
+visibility: hidden;
+opacity: 0;
+
+
+}
+
+
 /*
 ============
 contact form
