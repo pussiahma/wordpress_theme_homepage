@@ -28,6 +28,8 @@ $('.bubble').fadeOut(2000);
 
 })( jQuery );
 
+
+/*
 (function($) {
 var $overlay = $('<div id="overlay"></div>');
 var $image = $("<img>");
@@ -52,8 +54,9 @@ $overlay.click(function(){
 });
 
 
-
 })( jQuery );
+
+*/
 
 (function($) {
 
